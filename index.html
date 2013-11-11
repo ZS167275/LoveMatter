@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+	<head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script type="text/javascript" src="script.js"></script>
+		<link href="main.css" rel="stylesheet" type="text/css"></link>
+		<title>LOVE METER</title>
+	</head>
+		<body>
+			<p>
+				<label for="name1">Name1</label>
+					<input type="text" id="name1" name="first" onkeyup="value=value.replace(/[^\a-zA-Z/\s/]/g,'')" /><br/>
+				<label for="name2">Name2</label>
+					<input type="text" id="name2" name="last" onkeyup="value=value.replace(/[^\a-zA-Z/\s/]/g,'')" /><br/>
+				<input type="button" id="b1" value="Do you love each other ?" onclick="main();"/><br/>
+			</p>
+				<table width="700" border="1" id="addtr">
+					<tr>
+						<td align="center" >Name1</td>
+						<td align="center" >Name2</td>
+						<td align="center" >Love</td>
+						<td align="center" >Date</td>
+						<td align="center" >If delecte</td>
+					</tr>
+				</table>
+		</body>
+</html>

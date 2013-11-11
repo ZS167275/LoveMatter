@@ -1,0 +1,13 @@
+body { 
+	background-image: url(img/love.jpg);
+	background-repeat:no-repeat;
+	background-position:50% 10%;
+	width:700px; 
+	margin:auto; 
+	height:0px; 
+	clear:both ;
+	background-attachment:scroll;
+}
+table{
+	margin-top:150px;
+}
